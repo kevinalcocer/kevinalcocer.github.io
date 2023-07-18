@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+  }
+
+  .form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .error {
+    color: red;
+    text-align: center;
+  }
